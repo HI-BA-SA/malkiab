@@ -1,0 +1,53 @@
+name: beautify
+description: malkiab — a soft-glam cosmetics boutique app.
+
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_bloc:
+  cached_network_image: ^3.3.1
+  carousel_slider:
+  get:
+  get_storage:
+  share_plus:
+  hive:
+  hive_flutter:
+  image_picker:
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.5.0
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator:
+  build_runner:
+
+
+
+
+
+  flutter_lints: ^2.0.0
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
